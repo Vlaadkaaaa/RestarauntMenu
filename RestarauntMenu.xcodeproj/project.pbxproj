@@ -14,6 +14,7 @@
 		554D0F9C288973180063D416 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 554D0F9B288973180063D416 /* Assets.xcassets */; };
 		554D0F9F288973180063D416 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 554D0F9D288973180063D416 /* LaunchScreen.storyboard */; };
 		554D0FA72889B9500063D416 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554D0FA62889B94F0063D416 /* RegistrationViewController.swift */; };
+		554D0FA92889C9C30063D416 /* CheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554D0FA82889C9C30063D416 /* CheckViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		554D0F9E288973180063D416 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		554D0FA0288973180063D416 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		554D0FA62889B94F0063D416 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		554D0FA82889C9C30063D416 /* CheckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +63,9 @@
 				554D0F922889730F0063D416 /* AppDelegate.swift */,
 				554D0F942889730F0063D416 /* SceneDelegate.swift */,
 				554D0F962889730F0063D416 /* ViewController.swift */,
-				554D0F982889730F0063D416 /* Main.storyboard */,
 				554D0FA62889B94F0063D416 /* RegistrationViewController.swift */,
+				554D0FA82889C9C30063D416 /* CheckViewController.swift */,
+				554D0F982889730F0063D416 /* Main.storyboard */,
 				554D0F9B288973180063D416 /* Assets.xcassets */,
 				554D0F9D288973180063D416 /* LaunchScreen.storyboard */,
 				554D0FA0288973180063D416 /* Info.plist */,
@@ -144,6 +147,7 @@
 				554D0F972889730F0063D416 /* ViewController.swift in Sources */,
 				554D0F932889730F0063D416 /* AppDelegate.swift in Sources */,
 				554D0FA72889B9500063D416 /* RegistrationViewController.swift in Sources */,
+				554D0FA92889C9C30063D416 /* CheckViewController.swift in Sources */,
 				554D0F952889730F0063D416 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
