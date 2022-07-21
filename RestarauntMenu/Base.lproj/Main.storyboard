@@ -246,6 +246,9 @@
                         <outlet property="labelNoSmok" destination="Hd2-jE-Vjo" id="0yG-aV-cx6"/>
                         <outlet property="labelNumberOfTable" destination="ztz-Oe-c6r" id="hpm-Ai-094"/>
                         <outlet property="labelVIP" destination="Afm-MZ-icI" id="RbY-j1-kIR"/>
+                        <outlet property="switchBooking" destination="roP-pv-Vcg" id="jcB-pP-SRj"/>
+                        <outlet property="switchNoSmok" destination="wdf-HV-UKC" id="dFN-5u-eOp"/>
+                        <outlet property="switchVIP" destination="EUj-p2-RDi" id="5lg-OG-EdC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ONX-PN-4y9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

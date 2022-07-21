@@ -25,6 +25,14 @@ class RegistrationViewController: UIViewController {
     
     @IBOutlet weak var buttonOutlet: UIButton!
     
+    @IBOutlet weak var switchBooking: UISwitch!
+    
+    @IBOutlet weak var switchNoSmok: UISwitch!
+    
+    @IBOutlet weak var switchVIP: UISwitch!
+    
+    var diskont = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -36,11 +44,14 @@ class RegistrationViewController: UIViewController {
         labelVIP.textColor = color
         buttonOutlet.backgroundColor = color
         buttonOutlet.tintColor = .white
-       
+        switchBooking.isOn = false
+        switchVIP.isOn = false
+        
     }
     
 
     @IBAction func switchBookingTable(_ sender: UISwitch) {
+        diskont += 10
     }
     
     @IBAction func switchNoSmokig(_ sender: UISwitch) {
